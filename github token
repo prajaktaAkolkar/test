@@ -1,0 +1,37 @@
+
+
+
+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
+
+
+git init
+
+git pull origin branch name (code)
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin master
+
+
+
+to add modified changes 
+git branch
+git status On branch code
+git pull origin code
+git status On branch code
+git add .
+git commit -m 'added changes'
+git push origin code
+
+
+
+
+
+
+
+Laravel commands:
+composer create-project laravel/laravel example-app
+
+cd example-app
+
+php artisan serve
